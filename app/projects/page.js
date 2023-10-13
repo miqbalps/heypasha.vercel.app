@@ -1,5 +1,5 @@
 import React from "react";
-import { ProjectCard } from "@/components/ProjectCard";
+// import { ProjectCard } from "@/components/ProjectCard";
 import { projectsData } from "@/lib/data";
 
 const ProjectPage = () => {
@@ -12,11 +12,11 @@ const ProjectPage = () => {
         Check out my github repository for my other works
       </h3>
       <div className="w-full items-center flex flex-col md:flex-row md:flex-wrap justify-center gap-6 lg:gap-12">
-        {projectsData.map((project, index) => (
+        {/* {projectsData.map((project, index) => (
           <React.Fragment key={index}>
             <ProjectCard {...project} />
           </React.Fragment>
-        ))}
+        ))} */}
       </div>
     </main>
   );
