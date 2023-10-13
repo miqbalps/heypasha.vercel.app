@@ -16,7 +16,6 @@ import {
   EducationTimeline as Education,
   WorkTimeline as Work,
 } from "@/components/TimelineComponent";
-import { WorkTimeline } from "@/components/WorkTimeline";
 
 function AboutPage() {
   return (
