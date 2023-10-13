@@ -12,7 +12,10 @@ import {
   TbBrandReact,
   TbBrandNextjs,
 } from "react-icons/tb";
-import { EducationTimeline } from "@/components/EducationTimeline";
+import {
+  EducationTimeline as Education,
+  WorkTimeline as Work,
+} from "@/components/TimelineComponent";
 import { WorkTimeline } from "@/components/WorkTimeline";
 
 function AboutPage() {
@@ -39,13 +42,13 @@ function AboutPage() {
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
           <TbBriefcase /> Work Experience
         </h1>
-        {/* <WorkTimeline /> */}
+        <Work />
       </div>
       <div>
         <h1 className="text-center flex gap-2 lg:text-start text-4xl text-neutral-800 dark:text-neutral-100 font-bold mb-4">
           <TbSchool /> Education
         </h1>
-        {/* <EducationTimeline /> */}
+        <Education />
       </div>
     </main>
   );
