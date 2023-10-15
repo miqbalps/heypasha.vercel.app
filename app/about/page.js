@@ -58,7 +58,7 @@ function AboutPage() {
 
 export default AboutPage;
 
-export function WorkTimeline() {
+function WorkTimeline() {
   return (
     <div className="w-[32rem]">
       <Timeline>
@@ -116,7 +116,7 @@ export function WorkTimeline() {
   );
 }
 
-export function EducationTimeline() {
+function EducationTimeline() {
   return (
     <div className="w-[32rem]">
       <Timeline>

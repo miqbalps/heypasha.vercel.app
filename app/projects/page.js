@@ -34,7 +34,7 @@ const ProjectPage = () => {
 
 export default ProjectPage;
 
-export function ProjectCard({
+function ProjectCard({
   imgUrl,
   title,
   description,
