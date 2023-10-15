@@ -1,6 +1,4 @@
-"use client";
-
-import { Typography } from "@material-tailwind/react";
+import { Typography } from "@/components/MaterialTailwind";
 import Link from "next/link";
 
 export function SimpleFooter() {

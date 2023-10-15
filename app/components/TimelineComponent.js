@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Timeline,
   TimelineItem,
@@ -8,7 +6,7 @@ import {
   TimelineIcon,
   TimelineBody,
   Typography,
-} from "@material-tailwind/react";
+} from "@/components/MaterialTailwind";
 
 export function WorkTimeline() {
   return (

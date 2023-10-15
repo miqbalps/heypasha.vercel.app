@@ -1,12 +1,10 @@
-"use client";
-
 import {
   Card,
   CardHeader,
   CardBody,
   CardFooter,
   Typography,
-} from "@material-tailwind/react";
+} from "@/components/MaterialTailwind";
 import Link from "next/link";
 import Image from "next/image";
 import { TbBrandGithub, TbEye } from "react-icons/tb";

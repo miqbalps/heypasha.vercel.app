@@ -5,7 +5,7 @@ import {
   Collapse,
   Typography,
   IconButton,
-} from "@material-tailwind/react";
+} from "@/components/MaterialTailwind";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
