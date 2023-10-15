@@ -17,6 +17,27 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 
+import {
+  TbBrandGithub,
+  TbBrandInstagram,
+  TbBrandLinkedin,
+  TbBriefcase,
+  TbSchool,
+  TbBrandLaravel,
+  TbBrandHtml5,
+  TbBrandCss3,
+  TbBrandJavascript,
+  TbBrandBootstrap,
+  TbBrandTailwind,
+  TbBrandMysql,
+  TbBrandPhp,
+  TbBrandReact,
+  TbBrandNextjs,
+  TbEye,
+} from "react-icons/tb";
+
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
 export {
   Timeline,
   TimelineItem,
@@ -32,4 +53,22 @@ export {
   Navbar,
   Collapse,
   IconButton,
+  TbBrandGithub,
+  TbBrandInstagram,
+  TbBrandLinkedin,
+  TbBriefcase,
+  TbSchool,
+  TbBrandLaravel,
+  TbBrandHtml5,
+  TbBrandCss3,
+  TbBrandJavascript,
+  TbBrandBootstrap,
+  TbBrandTailwind,
+  TbBrandMysql,
+  TbBrandPhp,
+  TbBrandReact,
+  TbBrandNextjs,
+  TbEye,
+  Bars3Icon,
+  XMarkIcon,
 };

@@ -5,8 +5,9 @@ import {
   Collapse,
   Typography,
   IconButton,
+  Bars3Icon,
+  XMarkIcon,
 } from "@/components/MaterialTailwind";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 function NavList() {

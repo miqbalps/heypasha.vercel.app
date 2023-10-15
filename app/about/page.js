@@ -11,11 +11,9 @@ import {
   TbBrandPhp,
   TbBrandReact,
   TbBrandNextjs,
-} from "react-icons/tb";
-import {
   EducationTimeline as Education,
   WorkTimeline as Work,
-} from "@/components/TimelineComponent";
+} from "@/components/MaterialTailwind";
 
 function AboutPage() {
   return (

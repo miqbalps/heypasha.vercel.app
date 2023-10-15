@@ -4,10 +4,11 @@ import {
   CardBody,
   CardFooter,
   Typography,
+  TbBrandGithub,
+  TbEye,
 } from "@/components/MaterialTailwind";
 import Link from "next/link";
 import Image from "next/image";
-import { TbBrandGithub, TbEye } from "react-icons/tb";
 
 export function ProjectCard({
   imgUrl,
