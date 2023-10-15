@@ -4,7 +4,7 @@ import {
   TbBrandGithub,
   TbBrandInstagram,
   TbBrandLinkedin,
-} from "@/components/MaterialTailwind";
+} from "react-icons/tb";
 
 export default function HomePage() {
   return (
